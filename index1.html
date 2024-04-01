@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        /* Adjustments for color scheme and layout */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; /* Light gray background */
+            margin: 0;
+            padding: 0;
+            color: #343a40; /* Dark gray text color */
+        }
+        header {
+            background-color: #343a40; /* Dark gray navbar background */
+            color: #fff; /* White text color */
+            padding: 10px 0;
+        }
+        .nav-bar {
+            display: flex;
+            justify-content: center;
+        }
+        .bar1 {
+            display: flex;
+            justify-content: space-around;
+        }
+        .bar {
+            margin: 0 10px;
+        }
+        main {
+            padding: 20px;
+        }
+        .home1 {
+            width: 60%;
+            padding-right: 20px;
+        }
+        .home3 {
+            font-size: 32px;
+            font-weight: bold;
+            color: #343a40; /* Dark gray text color */
+        }
+        #main-skills {
+            background-color: #fff; /* White background */
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .skills {
+            width: 30%;
+            padding: 20px;
+            text-align: center;
+            background-color: #f0f0f0; /* Light gray background */
+            border-radius: 5px;
+            margin: 0 10px;
+        }
+        .skills-head {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 10px;
+            color: #343a40; /* Dark gray text color */
+        }
+        .skills-content {
+            font-size: 14px;
+            color: #555; /* Dark gray text color */
+            margin-top: 10px;
+        }
+        .skill-img {
+            width: 100px;
+            height: 100px;
+        }
+        #main-projects {
+            background-color: #f8f9fa; /* Light gray background */
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .projects {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .project1 {
+            width: 30%;
+            background-color: #fff; /* White background */
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .project-head {
+            font-weight: bold;
+            font-size: 20px;
+            color: #343a40; /* Dark gray text color */
+            margin-top: 10px;
+        }
+        .project-line {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin-top: 10px;
+        }
+        .project-button {
+            background-color: #343a40; /* Dark gray button background */
+            color: #fff; /* White text color */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        #footer1 {
+            background-color: #343a40; /* Dark gray footer background */
+            color: #fff; /* White text color */
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .foot1a {
+            margin-top: 10px;
+            color: #fff; /* White text color */
+        }
+        .fa {
+            margin-right: 10px;
+            color: #fff; /* White text color */
+            text-decoration: none;
+        }
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .foot1b {
+            width: 100%;
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #666;
+            box-sizing: border-box;
+        }
+        .text {
+            resize: none;
+            height: 100px;
+        }
+        .submit {
+            background-color: #343a40; /* Dark gray button background */
+            color: #fff; /* White text color */
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .footer2 {
+            background-color: #222; /* Dark footer background */
+            color: #fff; /* White text color */
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="bar1">
+                <div class="bar"><a href="#main-home">Home</a></div>
+                <div class="bar"><a href="#main-skills">Skills</a></div>
+                <div class="bar"><a href="#main-projects">Projects</a></div>
+                <div class="bar"><a href="#footer1">Contact</a></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="main-home">
+            <div class="home">
+                <div class="home1">
+                    <div style="font-size: 40px;">Hello</div>
+                    <div class="home2">
+                        <div>I'm </div>
+                        <div class="home3" style="padding-left: 20px;">Arshvir Singh</div>
+                    </div>
+                    <div style="font-size: 20px; padding-top:20px ;">I'm a passionate web developer with a keen eye for
+                        design and a flair for creating seamless, user-friendly digital experiences. With a strong
+                        foundation in front-end technologies, I specialize in turning ideas into beautifully crafted
+                        websites and web applications.</div>
+                </div>
+                <div><img src="img.png" alt="photo" class="home-img"></div>
+            </div>
+        </div>
+        <div id="main-skills">
+            <p style="text-align: center;padding-bottom: 20px; font-size: 30px; font-weight: bold;">My Skills</p>
+            <div class="skill">
+                <div class="skills">
+                    <div><img src="https://www.iconsdb.com/icons/preview/white/python-xxl.png" alt="python"
+                            class="skill-img"></div>
+                    <div class="skills-head">Python</div>
+                    <div class="skills-content">Python is a high-level, general-purpose, and very popular programming
+                        language. Python programming
+                        language (latest Python 3) is being used in web development, Machine Learning applications,
+                        along
+                        with all cutting-edge technology in Software Industry
+                    </div>
+                    <div style="padding-top: 60px;"><a href="https://www.geeksforgeeks.org/python-programming-language/"
+                            target="_blank">Click here to learn more</a></div>
+                </div>
+                <div class="skills">
+                    <div><img src="https://www.iconsdb.com/icons/preview/white/html-xxl.png" alt="HTML"
+                            class="skill-img"></div>
+                    <div class="skills-head">HTML</div>
+                    <div class="skills-content">HTML is used to create the structure of web pages and website that are
+                        displayed on the Internet.
+                        HTML basically contains Tags and Attributes that are used to design the web pages.Also, we can
+                        link
+                        multiple pages using Hyperlinks.</div>
+                    <div style="padding-top: 60px;"><a href="https://www.geeksforgeeks.org/html/" target="_blank">Click
+                            here to learn
+                            more</a></div>
+                </div>
+                <div class="skills">
+                    <div><img src="https://www.iconsdb.com/icons/preview/white/css-xxl.png" alt="CSS" class="skill-img">
+                    </div>
+                    <div class="skills-head">CSS</div>
+                    <div class="skills-content">CSS (Cascading Style Sheets) is used to styles web pages. Cascading
+                        Style Sheets are fondly
+                        referred to as CSS. The reason for using this is to simplify the process of making web pages
+                        presentable. It allows you to apply styles on web pages. More importantly, it enables you to do
+                        this
+                        independently of the HTML that makes up each web page.</div>
+                    <div style="padding-top: 20px;"><a href="https://www.geeksforgeeks.org/css/" target="_blank">Click
+                            here to learn
+                            more</a></div>
+                </div>
+            </div>
+        </div>
+        <div id="main-projects" style="font-family: system-ui;">
+            <p style="padding:30px 0 20px 70px;font-size: 50px; font-weight: 400;">My Projects</p>
+            <div class="projects">
+                <div class="project1" style="padding-top: 160px;">
+                    <hr class="project-line">
+                    <div class="project-head">Online Auction Platform</div>
+                    <div><img src="img1.png" alt="Online Auction Platform" width="400px"></div>
+                </div>
+                <div class="project1" style="padding-top: 80px;">
+                    <hr class="project-line">
+                    <div class="project-head">Netflix Clone homepage</div>
+                    <div><img src="img2.png" alt="Netflix Clone Homepage" width="400px"></div>
+                </div>
+                <div class="project1">
+                    <hr class="project-line">
+                    <div class="project-head">Calculator</div>
+                    <div><img src="img4.png" alt="Calculator" width="400px"></div>
+                </div>
+            </div>
+            <center>
+                <input type="button" value="See More" name="see More" class="project-button">
+            </center>
+        </div>
+    </main>
+    <footer id="footer1">
+        <div class="foot">
+            <div class="foot1">
+                <div id="contact">Contact me</div>
+                <div class="foot1a"><i style="font-size:24px" class="fa">&#xf0e0;</i> &ensp;arshdeol905@gmail.com
+                </div>
+                <div class="foot1a num"><i style="font-size:24px" class="fa">&#xf095;</i> &ensp;7901711905</div>
+                <div class="symbol"><a href="#" class="fa fa-facebook"></a>&ensp;<a href="#"
+                        class="fa fa-instagram"></a>&ensp;<a href="#" class="fa fa-twitter"></a>&ensp;<a href="https://www.linkedin.com/in/bhavishya-garg-7177ba28b/" class="fa fa-linkedin" target="_blank"></a>&ensp;<a href="https://github.com/Bhavishya2601" class="fa fa-github" target="_blank"></a></div>
+            </div>
+            <div class="foot1">
+                <form>
+                    <div><input type="text" name="Your Name" placeholder="Your Name" class="foot1b"></div>
+                    <div><input type="email" name="Your Email" placeholder="Your Email" class="foot1b"></div>
+                    <div><textarea class="foot1b text" placeholder="Your Message"></textarea>
+                    </div>
+                    <div><input type="submit" name="Submit" value="Submit" class="submit">
+                </form>
+            </div>
+        </div>
+    </footer>
+    <footer class="footer2">
+        &copy;Copyright Bhavishya 2023
+    </footer>
+</body>
+
+</html>
